@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Debounce Test</title>
+  </head>
+  <body>
+    <div class="resize-wrapper">
+      <h1 class="title">Please resize the window</h1>
+      <hr />
+      <div class="resize-inner-wrapper">
+        <div class="debounce-wrapper">
+          <h2 class="title debounce">With Debounce:</h2>
+          <div class="video-wrapper debounce-video">
+            <video autoplay muted loop src="Swiss backpacker.mp4"></video>
+          </div>
+        </div>
+        <div class="no-debounce-wrapper">
+          <h2 class="title no-debounce">Without Debounce:</h2>
+          <div class="video-wrapper no-debounce-video">
+            <video autoplay muted loop src="Swiss.mp4"></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
